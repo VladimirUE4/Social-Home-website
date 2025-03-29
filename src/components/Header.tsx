@@ -27,8 +27,8 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" })
         second: "2-digit",
         hour12: false,
       };
-      const timeString = new Intl.DateTimeFormat(locale, options).format(now);
-      setCurrentTime(timeString);
+      // const timeString = new Intl.DateTimeFormat(locale, options).format(now);
+      // setCurrentTime(timeString);
     };
 
     updateTime();
@@ -59,7 +59,7 @@ export const Header = () => {
         horizontal="center"
       >
         <Flex paddingLeft="12" fillWidth vertical="center" textVariant="body-default-s">
-          {display.location && <Flex hide="s">{person.location}</Flex>}
+          <Flex hide="s">Social-Home</Flex>
         </Flex>
         <Flex fillWidth horizontal="center">
           <Flex

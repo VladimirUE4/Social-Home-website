@@ -1,13 +1,13 @@
 ---
-title: "Automating Design Handovers with a Figma to Code Pipeline"
+title: "Admin Dashboard - Social Home Game"
 publishedAt: "2024-04-01"
-summary: "Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think."
+summary: "A comprehensive admin dashboard for managing the Social Home game, providing real-time statistics, user management, and game analytics."
 images:
   - "/images/projects/project-01/cover-02.jpg"
   - "/images/projects/project-01/image-03.jpg"
 team:
   - name: "John Doe"
-    role: "Software Engineer"
+    role: "Game Administrator"
     avatar: "/images/avatar.jpg"
     linkedIn: "https://www.linkedin.com/company/once-ui/"
 link: "https://once-ui.com/"
@@ -15,30 +15,35 @@ link: "https://once-ui.com/"
 
 ## Overview
 
-In this project, I focused on automating the often tedious design handover process. The goal was to create a pipeline that converts Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduced the time spent on translating design assets into code, while maintaining design consistency across the product.
+The Admin Dashboard is the central control hub for Social Home game administrators. This powerful interface provides comprehensive tools for monitoring game activity, managing users, and analyzing player behavior. With real-time statistics and intuitive controls, administrators can ensure smooth operation of the game while making data-driven decisions.
 
 ## Key Features
 
-- **Figma Plugin Integration**: Developed a custom Figma plugin that extracts design tokens such as colors, typography, and spacing values, and exports them in a format compatible with our codebase.
-- **Code Generation**: Integrated an automated process that translates Figma components into React code using a combination of design tokens and pre-built component templates. This allowed developers to focus more on logic and less on repetitive UI coding.
-- **Continuous Sync**: Established a CI/CD pipeline that continuously synchronizes design changes from Figma to the codebase, ensuring design updates are reflected instantly without manual intervention.
-- **Scalable Design System**: Leveraged a design system that remains the single source of truth for both designers and developers, making it easy to maintain consistency even as the product evolves.
+- **Real-time Analytics**: Monitor active users, popular game areas, and player interactions through dynamic charts and graphs.
+- **User Management**: Comprehensive tools for managing player accounts, including moderation capabilities, profile editing, and account status management.
+- **Game Statistics**: Track in-game economy metrics, mini-game popularity, player engagement rates, and customization preferences.
+- **Moderation Tools**: Advanced systems for monitoring chat logs, reporting systems, and implementing automatic content filtering.
+- **Content Management**: Easy-to-use interface for updating game content, adding new items, and managing seasonal events.
 
-## Technologies Used
+## Dashboard Sections
 
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- **Overview Panel**: Quick access to key metrics and urgent notifications requiring admin attention.
+- **Player Analytics**: Detailed insights into player behavior, session duration, and social interactions.
+- **Economy Monitor**: Track virtual currency flow, popular items, and marketplace activity.
+- **Report Center**: Handle user reports, moderate content, and manage community guidelines enforcement.
+- **System Health**: Monitor server status, performance metrics, and technical diagnostics.
 
-## Challenges and Learnings
+## Security Features
 
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
+- **Role-based Access Control**: Granular permission settings for different admin levels
+- **Activity Logging**: Comprehensive logs of all administrative actions for accountability
+- **Two-factor Authentication**: Enhanced security for admin account access
+- **IP Whitelisting**: Restricted access from approved locations only
 
-## Outcome
+## Impact
 
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
+The admin dashboard has significantly improved game management efficiency, reducing response time to user reports by 60% and enabling better decision-making through data-driven insights. The intuitive interface allows administrators to maintain a healthy gaming environment while focusing on community growth and player satisfaction.
 
 ---
 
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+This powerful administrative tool ensures the smooth operation of Social Home, providing the necessary oversight and management capabilities for a thriving virtual social gaming platform.

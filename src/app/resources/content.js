@@ -1,70 +1,67 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Social-Home",
+  lastName: "Game",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Virtual Social World",
+  avatar: "/images/logo.svg",
+  location: "Global",
+  languages: [],
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName} Updates</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      Stay updated with the latest features, events, and community highlights in our virtual world!
     </>
   ),
 };
 
 const social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    name: "Discord",
+    icon: "discord",
+    link: "https://discord.gg/social-home",
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "X",
+    name: "Twitter",
     icon: "x",
-    link: "",
+    link: "https://twitter.com/socialhomegame",
   },
   {
-    name: "Email",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://instagram.com/socialhomegame",
+  },
+  {
+    name: "Support",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:support@social-home.com",
   },
 ];
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  title: "Welcome to Social-Home",
+  description: "Your new virtual life awaits!",
+  headline: <>Create, Connect, Live</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Join millions of players in Social-Home, where you can build your dream house,
+      <br /> make lasting friendships, and create unforgettable memories together.
     </>
   ),
 };
 
 const about = {
   label: "About",
-  title: "About me",
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  title: "About Social-Home",
+  description: "Discover a world of endless possibilities",
   tableOfContent: {
     display: true,
     subItems: false,
@@ -73,60 +70,54 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
-    link: "https://cal.com",
+    display: false,
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Welcome to Your New Virtual Home",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Social-Home is a vibrant virtual world where creativity meets community. Design your perfect 
+        home, express yourself through customizable avatars, participate in exciting mini-games, and 
+        build meaningful connections with players from around the globe.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
-    title: "Work Experience",
+    display: true,
+    title: "Game Features",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Home Building",
+        timeframe: "Core Feature",
+        role: "Creativity & Design",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Design and build your dream home with thousands of furniture items and decorative elements
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Share your creations with the community and visit other players' homes for inspiration
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/logo.svg",
+            alt: "Home Building Feature",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Social Features",
+        timeframe: "Core Feature",
+        role: "Community & Connection",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Chat with friends, join clubs, and participate in community events
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Create and join themed parties, game nights, and social gatherings
           </>,
         ],
         images: [],
@@ -134,50 +125,46 @@ const about = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
+    display: true,
+    title: "Game Activities",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Mini-Games",
+        description: <>Compete in fun mini-games with friends and earn rewards</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Trading System",
+        description: <>Trade items with other players in our secure marketplace</>,
+      },
+      {
+        name: "Events",
+        description: <>Participate in seasonal events and special celebrations</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Game Features",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
+        title: "Character Customization",
+        description: <>Create and customize your unique avatar with hundreds of options</>,
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/logo.svg",
+            alt: "Character Customization",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
+        title: "Social Interaction",
+        description: <>Connect with friends, chat, and participate in community events</>,
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            src: "/images/logo.svg",
+            alt: "Social Features",
             width: 16,
             height: 9,
           },
@@ -205,9 +192,8 @@ const work = {
 
 const gallery = {
   label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
+  title: "Featured Homes & Moments",
+  description: "Explore amazing creations from our community",
   images: [
     {
       src: "/images/gallery/img-01.jpg",
