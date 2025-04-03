@@ -26,7 +26,7 @@ const social = [
   {
     name: "Discord",
     icon: "discord",
-    link: "https://discord.gg/social-home",
+    link: "https://discord.gg/QZqZJ7yyyQ",
   },
   {
     name: "Twitter",
@@ -101,7 +101,7 @@ const about = {
         ],
         images: [
           {
-            src: "/images/logo.svg",
+            src: "/images/gallery/SocialHome_01.jpg",
             alt: "Home Building Feature",
             width: 16,
             height: 9,
@@ -151,7 +151,7 @@ const about = {
         description: <>Create and customize your unique avatar with hundreds of options</>,
         images: [
           {
-            src: "/images/logo.svg",
+            src: "/images/gallery/SocialHome_02.jpg",
             alt: "Character Customization",
             width: 16,
             height: 9,
@@ -163,7 +163,7 @@ const about = {
         description: <>Connect with friends, chat, and participate in community events</>,
         images: [
           {
-            src: "/images/logo.svg",
+            src: "/images/gallery/SocialHome_03.jpg",
             alt: "Social Features",
             width: 16,
             height: 9,
@@ -183,9 +183,9 @@ const blog = {
 };
 
 const work = {
-  label: "Work",
-  title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  label: "Careers",
+  title: "We are hiring",
+  description: `Find all of our latest careers opportunity`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
@@ -196,72 +196,17 @@ const gallery = {
   description: "Explore amazing creations from our community",
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/gallery/SocialHome_03.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/gallery/SocialHome_02.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
+      src: "/images/gallery/SocialHome_01.jpg",
       alt: "image",
       orientation: "horizontal",
     },
